@@ -1,23 +1,21 @@
-# 🍎 Manav Kasa Programı
+Bu repoda Patika.dev üzerinden yaptığım Java ödevleri yer almaktadır.
+## 1. Manav Kasa Programı
 
-Bu Java programı, kullanıcıdan alınan ürün kilogramlarına göre toplam fiyatı hesaplar.
+- Kullanıcıdan alınan ürün kilogramlarına göre toplam fiyatı hesaplayan program.
+- Ürünler: Armut, Elma, Domates, Muz, Patlıcan
+- Nasıl çalıştırılır:
+  ```bash
+  javac ManavKasaProgram.java
+  java ManavKasaProgram
 
-## 💻 Nasıl Çalışır?
 
-1. Kullanıcıdan şu ürünlerin kaç kg alındığı sorulur:
-   - Armut
-   - Elma
-   - Domates
-   - Muz
-   - Patlıcan
+## 2. Vücut Kitle Endeksi (VKİ) Hesaplayıcı
+Kullanıcının boy ve kilosunu alarak VKİ hesaplayan program.
 
-2. Program, her ürünün kilogram fiyatına göre toplam ödenecek tutarı hesaplar.
+VKİ Formülü: Kilo / (Boy * Boy)
 
-## ▶️ Programı Nasıl Çalıştırırım?
-
-1. `ManavKasaProgram.java` dosyasını aç.
-2. Terminali aç, şu komutları sırayla yaz:
+Nasıl çalıştırılır:
 
 ```bash
-javac ManavKasaProgram.java
-java ManavKasaProgram
+javac VucutKitleEndeksi.java
+java VucutKitleEndeksi
