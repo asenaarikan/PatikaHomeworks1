@@ -21,7 +21,6 @@ public class Vucut_Kitle_Indeksi {
         System.out.println("Vücut Kitle İndeksiniz: " + vki);
 
         scanner.close();
-     }
     
    }
 }
