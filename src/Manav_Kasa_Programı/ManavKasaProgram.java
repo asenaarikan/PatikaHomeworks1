@@ -1,4 +1,4 @@
-package PatikaHomeworks;
+package Manav_Kasa_Programı;
 
 import java.util.Scanner;
 
