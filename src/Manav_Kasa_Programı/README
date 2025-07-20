@@ -1,0 +1,8 @@
+## 1. Manav Kasa Programı
+
+- Kullanıcıdan alınan ürün kilogramlarına göre toplam fiyatı hesaplayan program.
+- Ürünler: Armut, Elma, Domates, Muz, Patlıcan
+- Nasıl çalıştırılır:
+  ```bash
+  javac ManavKasaProgram.java
+  java ManavKasaProgram
