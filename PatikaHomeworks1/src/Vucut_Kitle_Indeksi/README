@@ -1,0 +1,10 @@
+## 2. Vücut Kitle Endeksi (VKİ) Hesaplayıcı
+Kullanıcının boy ve kilosunu alarak VKİ hesaplayan program.
+
+VKİ Formülü: Kilo / (Boy * Boy)
+
+Nasıl çalıştırılır:
+
+```bash
+javac VucutKitleEndeksi.java
+java VucutKitleEndeksi
