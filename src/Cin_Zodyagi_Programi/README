@@ -1,0 +1,51 @@
+# Çin Zodyağı Hesaplayıcı (Java)
+
+Bu Java konsol uygulaması, kullanıcının doğum yılına göre Çin Zodyağı burcunu hesaplar ve ekrana yazdırır.
+
+## 🚀 Nasıl Çalışır?
+
+- Kullanıcıdan doğum yılı girmesi istenir.
+- Girilen yıl 12'ye bölünerek kalanı bulunur.
+- Elde edilen kalana göre ilgili Çin Zodyağı burcu ekrana yazdırılır.
+
+## 🔢 Çin Zodyağı Burçları
+
+| Kalan | Burç     |
+|-------|----------|
+| 0     | Maymun   |
+| 1     | Horoz    |
+| 2     | Köpek    |
+| 3     | Domuz    |
+| 4     | Fare     |
+| 5     | Öküz     |
+| 6     | Kaplan   |
+| 7     | Tavşan   |
+| 8     | Ejderha  |
+| 9     | Yılan    |
+| 10    | At       |
+| 11    | Koyun    |
+
+## 🛠️ Kullanılan Teknolojiler
+
+- Java 17 (veya üstü)
+- Scanner sınıfı ile kullanıcıdan veri alma
+- Switch-case kontrol yapısı
+
+## 📌 Kurulum ve Kullanım
+
+1. Java'nın bilgisayarınızda yüklü olduğundan emin olun.
+2. Aşağıdaki Java dosyasını oluşturun: `CinZodyagi.java`
+3. Kodları bu dosyaya yapıştırın.
+4. Terminal veya komut satırında aşağıdaki komutları kullanarak programı çalıştırın:
+
+```bash
+javac CinZodyagi.java
+java CinZodyagi
+🧪 Örnek Çalışma
+yaml
+Kopyala
+Düzenle
+Doğum yılınızı girin: 1996
+Çin Zodyağı Burcunuz: Fare
+📄 Lisans
+Bu proje eğitim amaçlıdır ve açık kaynak olarak paylaşılmıştır.
