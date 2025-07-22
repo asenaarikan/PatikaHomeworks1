@@ -41,11 +41,13 @@ Bu Java konsol uygulaması, kullanıcının doğum yılına göre Çin Zodyağı
 ```bash
 javac CinZodyagi.java
 java CinZodyagi
+
+
 🧪 Örnek Çalışma
-yaml
-Kopyala
-Düzenle
+
 Doğum yılınızı girin: 1996
 Çin Zodyağı Burcunuz: Fare
+
+
 📄 Lisans
 Bu proje eğitim amaçlıdır ve açık kaynak olarak paylaşılmıştır.
