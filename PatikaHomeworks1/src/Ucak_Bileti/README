@@ -1,0 +1,72 @@
+
+# ✈️ Uçak Bileti Fiyatı Hesaplama Programı (Java)
+
+Bu proje, Java programlama dili kullanılarak geliştirilmiş basit bir uçak bileti fiyatı hesaplayıcısıdır. 
+Kullanıcıdan seyahat mesafesi, yaş ve yolculuk tipi gibi bilgiler alınarak bilet fiyatı çeşitli indirimlerle hesaplanır.
+
+---
+
+## 📌 Özellikler
+
+- Mesafe başına 0.10 TL ücret uygulanır.
+- Yaş aralığına göre indirimler:
+  - 12 yaş altı: %50 indirim
+  - 12-24 yaş arası: %10 indirim
+  - 65 yaş üstü: %30 indirim
+- Gidiş-Dönüş bileti seçilirse ek olarak %20 indirim uygulanır.
+- Hatalı girişler kontrol edilir ve kullanıcı uyarılır.
+
+---
+
+## 🛠 Kullanılan Teknolojiler
+
+- Java (JDK 17+ önerilir)
+- Scanner sınıfı ile kullanıcı girişi
+
+---
+
+## ▶️ Program Nasıl Çalışır?
+
+### Kullanıcıdan Alınan Veriler:
+1. **Mesafe** (km cinsinden)
+2. **Yaş**
+3. **Yolculuk tipi**
+   - `1` → Tek Yön
+   - `2` → Gidiş-Dönüş
+
+### Örnek Girdi:
+Mesafeyi km cinsinden giriniz: 1000
+Yaşınızı giriniz: 20
+Yolculuk tipini giriniz (1 => Tek Yön, 2 => Gidiş-Dönüş): 2
+
+### Örnek Çıktı:
+Toplam Bilet Fiyatı: 144.0 TL
+
+---
+
+## 🚫 Hatalı Giriş Kontrolü
+
+Program aşağıdaki durumlarda uyarı verir ve işlem yapmaz:
+
+- Mesafe veya yaş negatif girilirse
+- Yolculuk tipi 1 veya 2 dışında bir değer girilirse
+
+---
+
+## 📁 Projeyi Çalıştırma
+
+1. Java IDE (Örn: IntelliJ IDEA, Eclipse) ya da terminal kullanabilirsiniz.
+2. Aşağıdaki gibi derleyip çalıştırabilirsiniz:
+
+```bash
+javac UcakBiletiHesaplama.java
+java UcakBiletiHesaplama
+👤 Yazar
+Ad: [asenaarikan]
+
+Tarih: Temmuz 2025
+
+Proje: [Patika.dev Java101 Ödevi]
+
+📄 Lisans
+Bu proje kişisel ve eğitim amaçlıdır. Herhangi bir ticari kullanım için lisans gerekebilir.
