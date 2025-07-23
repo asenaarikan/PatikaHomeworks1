@@ -1,0 +1,49 @@
+# Artık Yıl Hesaplayıcı (Java)
+
+Bu küçük Java projesi, kullanıcıdan bir yıl girişi alarak o yılın artık yıl (leap year) olup olmadığını kontrol eder ve sonucu ekrana yazdırır.
+
+## 🔍 Projenin Amacı
+
+Bir yılın artık yıl olup olmadığını aşağıdaki kurallara göre belirlemek:
+- Eğer yıl 4 ile tam bölünüyorsa:
+  - Aynı zamanda 100 ile **bölünmüyorsa** → Artık yıldır.
+  - Eğer 100 ile de bölünüyorsa → 400 ile **de** bölünmesi gerekir.
+- 4 ile **bölünemeyen** yıllar artık yıl değildir.
+
+## 📌 Kullanım
+
+1. Kullanıcıdan bir yıl girmesi istenir.
+2. Girilen yılın kurallara göre artık yıl olup olmadığı kontrol edilir.
+3. Sonuç kullanıcıya bildirilir.
+
+## 💻 Kodun Kullanımı
+
+```bash
+# Derlemek için
+javac Artik_Yil.java
+
+# Çalıştırmak için
+java Artik_Yil
+
+
+🧪 Örnek Çıktı1
+Bir yıl giriniz: 2000
+2000 bir artık yıldır.
+
+
+🧪 Örnek Çıktı2
+Bir yıl giriniz: 1900
+1900 bir artık yıl değildir.
+
+
+📁 Dosya Yapısı
+
+ArtikYil/
+├── Artik_Yil.java
+└── README.md
+
+
+👩‍💻 Geliştirici
+Asena Arıkan
+(Java Öğrencisi / Geliştirici Adayı)
+
