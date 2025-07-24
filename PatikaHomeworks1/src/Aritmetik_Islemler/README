@@ -1,0 +1,70 @@
+Aritmetik İşlemler Java Programı
+
+
+Bu Java programı, kullanıcıdan üç tam sayı girdisi alır ve bu sayılarla temel bir aritmetik işlem gerçekleştirir:
+sonuç = a + b * c - b
+
+
+
+🔧 Özellikler
+Kullanıcıdan 3 sayı girişi alır (a, b, c)
+
+Aritmetik işlem uygular: a + b * c - b
+
+Sonucu ekranda gösterir
+
+
+
+💻 Kullanım
+Projeyi bir Java IDE'sinde (IntelliJ IDEA, Eclipse vb.) açın veya komut satırında çalıştırın.
+
+Programı başlatın.
+
+Konsol üzerinden sırasıyla 3 sayı girin.
+
+Hesaplanan sonuç ekrana yazdırılır.
+
+
+
+Örnek Çıktı
+
+Bir sayı giriniz: 2
+İkinci bir sayı giriniz: 3
+Üçüncü bir sayı giriniz: 4
+Result: 11.0
+
+
+Açıklama
+
+Girilen sayılar:
+
+a = 2
+b = 3
+c = 4
+
+İşlem:
+
+sonuç = a + b * c - b  
+       = 2 + 3 * 4 - 3  
+       = 2 + 12 - 3  
+       = 11
+
+
+📂 Dosya Yapısı
+
+AritmetikIslemler.java
+README.md
+
+
+🛠️ Gereksinimler
+Java 8 veya üzeri
+
+Bir Java geliştirme ortamı (IDE) veya terminal
+
+📌 Notlar
+İşlem önceliği Java'daki matematik kurallarına göre uygulanır.
+
+* çarpma işlemi + ve -'den önce gerçekleştirilir.
+
+🧑‍💻 Yazar
+Hazırlayan: [asenaarikan]
