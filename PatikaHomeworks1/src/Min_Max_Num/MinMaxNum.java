@@ -23,7 +23,7 @@ public class MinMaxNum {
             for(int i=2 ; i<=n ; i++) {
                 System.out.println("Enter number " + i + "=");
                 num = scanner.nextInt();
-
+// compare
                 min = (num < min) ? num : min;
                 max = (num > max) ? num : max;
             }
