@@ -35,6 +35,8 @@ Her satırda yıldız sayısı bir desen formülüne göre azalarak gider.
 *****
 ***
 *
+
+
 ---
 
 ## 📦 Derleme ve Çalıştırma
