@@ -1,11 +1,13 @@
 package Maas_Hesaplayici;
-
 public abstract class Employee {
+
+    // Nitelikler
     protected String name;
     protected double salary;
     protected int workHours;
     protected int hireYear;
 
+    // Kurucu Metotlar
     public Employee(String name, double salary, int workHours, int hireYear) {
         this.name = name;
         this.salary = salary;
@@ -42,6 +44,7 @@ public abstract class Employee {
     // Polymorphism için abstract metot
     public abstract double calculateTotalSalary();
 
+    // Bilgilendirme için ekran çıktısı
     @Override
     public abstract String toString();
 }
