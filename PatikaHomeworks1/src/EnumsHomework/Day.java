@@ -12,10 +12,11 @@ public enum Day {
 
     private final String workingHours;
 
+    // Enum sabitlerinin değerlerini atayan kurucu (constructor) metot
     Day(String workingHours){
         this.workingHours = workingHours;
     }
-
+    // Çalışma saatini döndüren metot
     public String getWorkingHours() {
         return workingHours;
     }
